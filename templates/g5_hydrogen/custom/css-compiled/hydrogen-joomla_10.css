@@ -97,19 +97,19 @@ legend small {
 }
 /* line 1, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .btn-primary {
-  background: #439a86;
+  background: #383838;
   color: #fff;
   text-shadow: none;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 /* line 6, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .btn-primary:hover {
-  background: #4bac95;
+  background: #454545;
   color: #fff;
 }
 /* line 10, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .btn-primary:active, .btn-primary:focus {
-  background: #3b8877;
+  background: #2b2b2b;
   box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.15);
   color: #fff;
 }
@@ -119,18 +119,18 @@ legend small {
 }
 /* line 21, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
-  background: #3b8877;
+  background: #2b2b2b;
   color: #fff;
   box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.15);
 }
 /* line 27, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   background-image: none;
-  background-color: #439a86;
+  background-color: #383838;
 }
 /* line 32, templates/g5_hydrogen/scss/hydrogen-joomla/_core.scss */
 .btn-link {
-  color: #439a86;
+  color: #383838;
 }
 /* line 2, templates/g5_hydrogen/scss/hydrogen-joomla/_typography.scss */
 .list-striped, .row-striped {

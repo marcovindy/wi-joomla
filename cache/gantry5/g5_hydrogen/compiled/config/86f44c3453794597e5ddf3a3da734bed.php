@@ -1,23 +1,23 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622634254,
-    'checksum' => '1d6e45c90ffd1fc422a1ac3c81b44581',
+    'timestamp' => 1622715240,
+    'checksum' => '2fa46a0da0431bea952ac673acda5bba',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ]
     ],

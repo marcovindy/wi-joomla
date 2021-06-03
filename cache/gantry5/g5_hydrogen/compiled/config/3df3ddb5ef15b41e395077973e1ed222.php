@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622641354,
-    'checksum' => '4c9cf05de9f814f86d196a6a06bf59e8',
+    'timestamp' => 1622715364,
+    'checksum' => '16003c4c7b59ee786d9f525539361ba8',
     'files' => [
         'templates/g5_hydrogen/custom/config/10' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/index.yaml',
-                'modified' => 1622641352
+                'modified' => 1622706291
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/layout.yaml',
-                'modified' => 1622641352
+                'modified' => 1622706291
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/styles.yaml',
-                'modified' => 1622634274
+                'modified' => 1622715364
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ]
     ],
@@ -248,7 +248,7 @@ return [
         ],
         'styles' => [
             'accent' => [
-                'color-1' => '#439a86',
+                'color-1' => '#383838',
                 'color-2' => '#8f4dae'
             ],
             'base' => [
@@ -273,7 +273,7 @@ return [
                 'text-color' => '#666666'
             ],
             'header' => [
-                'background' => '#2a816d',
+                'background' => '#383838',
                 'text-color' => '#ffffff'
             ],
             'main' => [
@@ -286,7 +286,7 @@ return [
                 'hide-on-mobile' => 0
             ],
             'navigation' => [
-                'background' => '#439a86',
+                'background' => '#383838',
                 'text-color' => '#ffffff',
                 'overlay' => 'rgba(0, 0, 0, 0.4)'
             ],

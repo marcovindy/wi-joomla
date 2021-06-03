@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\wi-joomla/media/gantry5/engines/nucleus/particles/branding.yaml',
-    'modified' => 1622634168,
+    'modified' => 1622706287,
     'data' => [
         'name' => 'Branding',
         'description' => 'Displays powered by link to Gantry Framework',

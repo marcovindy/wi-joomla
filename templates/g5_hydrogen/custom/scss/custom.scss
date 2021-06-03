@@ -1,0 +1,113 @@
+$color-white: #ffffff;
+$color-black: #222222;
+$color-grey: #383838;
+$color-light-grey: #727272;
+$color-purple: #32325d;
+$color-light: #ebebeb;
+$overlay: rgba(0, 0, 0, 0.9);
+$box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+$box-shadow-hover: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+$card-width: 18rem;
+@import "dependencies";
+* {
+    margin: 0;
+}
+
+input[type="submit"] {
+    color: $color-white !important;
+    background: $color-grey !important;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    width: 6rem;
+}
+
+#g-navigation {}
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-flex-center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.d-flex-col {
+    flex-direction: column;
+}
+
+.vm-col {
+    .product-container {
+        display: grid;
+        width: $card-width + 1rem;
+        grid-template-columns: $card-width;
+        grid-template-rows: 13.75rem auto 4.5rem auto;
+        grid-gap: 0.1rem;
+        border-radius: 1rem;
+        -webkit-box-shadow: $box-shadow;
+        box-shadow: $box-shadow;
+        transition: transform 0.5s;
+        -webkit-transition: transform 0.5s;
+        &:hover {
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+        }
+        .vm-product-media-container {
+            grid-column: 1;
+            overflow: hidden;
+            a {
+                width: 100%;
+                height: auto;
+                img {
+                    width: 100% !important;
+                    margin: auto;
+                }
+            }
+        }
+        .card-main {
+            grid-column: 1;
+            margin: 0;
+            &-title {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                font-size: 1.5rem;
+                height: 2rem;
+            }
+        }
+        .product-price {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .PricebasePriceVariant {
+                display: none;
+            }
+            .PricetaxAmount {
+                display: none;
+            }
+            .PricesalesPrice.vm-display,
+            .PricepriceWithoutTax.vm-display {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 1rem;
+                span {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

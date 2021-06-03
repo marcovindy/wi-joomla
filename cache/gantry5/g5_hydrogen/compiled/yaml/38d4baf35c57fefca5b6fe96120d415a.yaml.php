@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/templates/g5_hydrogen/custom/config/_offline/index.yaml',
-    'modified' => 1622634197,
+    'modified' => 1622706291,
     'data' => [
         'name' => '_offline',
         'timestamp' => 1622634197,

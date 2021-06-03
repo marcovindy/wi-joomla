@@ -1,1 +1,7 @@
 preset: preset1
+accent:
+  color-1: '#383838'
+header:
+  background: '#383838'
+navigation:
+  background: '#383838'

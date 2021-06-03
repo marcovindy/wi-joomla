@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\wi-joomla/media/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-    'modified' => 1622634168,
+    'modified' => 1622706287,
     'data' => [
         'name' => 'Assets',
         'description' => 'Assets such as JS and CSS that can be globally loaded',

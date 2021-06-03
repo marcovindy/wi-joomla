@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/templates/g5_hydrogen/gantry/presets.yaml',
-    'modified' => 1622634196,
+    'modified' => 1622706291,
     'data' => [
         'preset1' => [
             'image' => 'gantry-admin://images/preset1.png',

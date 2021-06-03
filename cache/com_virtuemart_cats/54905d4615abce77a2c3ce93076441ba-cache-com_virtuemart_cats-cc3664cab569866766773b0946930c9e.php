@@ -1,1 +1,1 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:6:"result";s:80:"<option   value="1">Elektronika</option><option   value="2"> - Televize</option>";s:6:"output";s:0:"";}
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"result";s:157:"<option   value="1">Elektronika</option><option   value="5"> - Počítače</option><option   value="2"> - Televize</option><option   value="4">Sport</option>";s:6:"output";s:0:"";}

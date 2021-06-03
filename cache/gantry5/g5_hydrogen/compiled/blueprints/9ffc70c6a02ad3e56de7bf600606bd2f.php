@@ -1,163 +1,163 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1622634254,
-    'checksum' => '2ea0de1924e2eed2aa6d33ec1517b6ea',
+    'timestamp' => 1622706598,
+    'checksum' => '7aafdfb50782f8c0ec4c54ec43797bd0',
     'files' => [
         'templates/g5_hydrogen/particles' => [
             'particles/sample' => [
                 'file' => 'templates/g5_hydrogen/particles/sample.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ],
         'media/gantry5/engines/nucleus/particles' => [
             'particles/analytics' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/analytics.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/assets' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/assets.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/branding' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/branding.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/content' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/content.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/contentarray' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/contentarray.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/copyright' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/copyright.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/custom' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/custom.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/date' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/date.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/frameworks' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/frameworks.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/lightcase' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/lightcase.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/logo' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/logo.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/menu' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/menu.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/messages' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/messages.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/mobile-menu' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/mobile-menu.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/module' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/module.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/position' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/position.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/social' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/social.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/spacer' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/spacer.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'particles/totop' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/totop.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ]
         ],
         'templates/g5_hydrogen/blueprints' => [
             'page' => [
                 'file' => 'templates/g5_hydrogen/blueprints/page.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/accent' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/accent.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/base' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/base.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/breakpoints' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/breakpoints.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/feature' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/feature.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/footer' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/footer.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/header' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/header.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/main' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/main.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/menu' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/menu.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/navigation' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/navigation.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/offcanvas' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/offcanvas.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/showcase' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/showcase.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ],
             'styles/subfeature' => [
                 'file' => 'templates/g5_hydrogen/blueprints/styles/subfeature.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ],
         'media/gantry5/engines/nucleus/blueprints' => [
             'page/assets' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'page/body' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/body.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'page/fontawesome' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/fontawesome.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ],
             'page/head' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/head.yaml',
-                'modified' => 1622634168
+                'modified' => 1622706287
             ]
         ]
     ],
