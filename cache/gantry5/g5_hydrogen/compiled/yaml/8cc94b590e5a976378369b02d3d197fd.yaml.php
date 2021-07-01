@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/administrator/components/com_gantry5/blueprints/menu/menuitem.yaml',
-    'modified' => 1622634169,
+    'modified' => 1622706275,
     'data' => [
         'name' => 'Menu Item',
         'description' => 'Gantry menu item.',

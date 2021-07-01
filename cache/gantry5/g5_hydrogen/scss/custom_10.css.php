@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom_10.css',
-    'timestamp' => 1625147173,
-    'md5' => '356ec466a87c751c09f8376510b07c6c',
+    'timestamp' => 1625150353,
+    'md5' => '0284e09b46a7d6ca5d0eb69fc16da8d6',
     'variables' => [
         'accent-color-1' => '#383838',
         'accent-color-2' => '#8f4dae',
@@ -40,6 +40,6 @@ return [
         'preset' => '\'preset1\''
     ],
     'imports' => [
-        'gantry-theme://scss/custom.scss' => 1625147171
+        'gantry-theme://scss/custom.scss' => 1625150062
     ]
 ];

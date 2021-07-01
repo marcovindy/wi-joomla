@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/templates/g5_hydrogen/custom/config/10/index.yaml',
-    'modified' => 1625144407,
+    'modified' => 1625149085,
     'data' => [
         'name' => '10',
-        'timestamp' => 1625144407,
+        'timestamp' => 1625149085,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/home.png',

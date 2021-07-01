@@ -79,7 +79,7 @@ defined('_JEXEC') or die;
 
 <script>
    jQuery(document).ready(()=>{
-        jQuery( ".g-main-nav" ).append( "<div class='hamburger-menu'></div>" );
+        jQuery( ".g-main-nav" ).append( '<div class="hamburger" id="hamburger">          <span class="line"></span>          <span class="line"></span>          <span class="line"></span>        </div>' );
         jQuery( ".g-main-nav" ).addClass( "burger-wrap" );
         jQuery('.menu-wrapper').on('click', function() {
 		    jQuery('.hamburger-menu').toggleClass('animate');
@@ -87,4 +87,10 @@ defined('_JEXEC') or die;
             
 
    })
+
+   jQuery(document).ready(()=>{
+    jQuery(".hamburger").click(function(){
+        jQuery(this).toggleClass("is-active");
+  });
+})
 </script>

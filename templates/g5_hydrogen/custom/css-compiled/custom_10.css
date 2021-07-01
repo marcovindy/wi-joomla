@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 /* line 2, templates/g5_hydrogen/custom/scss/custom.scss */
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 /* line 5, templates/g5_hydrogen/custom/scss/custom.scss */
 body {
@@ -250,20 +250,101 @@ body {
 .footer {
   text-align: center;
 }
+/* line 231, templates/g5_hydrogen/custom/scss/custom.scss */
+#g-showcase {
+  overflow-y: hidden;
+  padding: 0 !important;
+  background-image: url('https://placeimg.com/1000/400/tech');
+  background-size: cover;
+  background-position: center;
+}
+/* line 237, templates/g5_hydrogen/custom/scss/custom.scss */
+#g-showcase .moduleItemTitle {
+  font-size: 55px;
+}
+/* line 242, templates/g5_hydrogen/custom/scss/custom.scss */
+.moduletable.landpage {
+  height: 250px;
+}
+/* line 245, templates/g5_hydrogen/custom/scss/custom.scss */
+.k2ItemsBlock.landpage {
+  margin: 0 !important;
+}
+/* Only for the pen */
+/* line 250, templates/g5_hydrogen/custom/scss/custom.scss */
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+/* line 257, templates/g5_hydrogen/custom/scss/custom.scss */
+main {
+  min-height: 500px;
+  background-color: #2b2d42;
+}
+/* line 262, templates/g5_hydrogen/custom/scss/custom.scss */
+.moduletable.landpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* line 269, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger {
+  padding: 15px 0;
+  width: 65px;
+  position: absolute;
+  right: 0;
+}
+/* line 274, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger .line {
+  width: 30px;
+  height: 3px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 4px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 285, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger:hover {
+  cursor: pointer;
+}
+/* line 289, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger.is-active .line:nth-child(1) {
+  width: 30px;
+}
+/* line 293, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger.is-active .line:nth-child(2) {
+  width: 40px;
+}
+/* line 297, templates/g5_hydrogen/custom/scss/custom.scss */
+.hamburger.is-active .line {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+/* line 305, templates/g5_hydrogen/custom/scss/custom.scss */
+/* line 306, templates/g5_hydrogen/custom/scss/custom.scss */
+.burger-wrap .g-toplevel {
+  display: none !important;
+}
 @media only screen and (max-width: 960px) {
-  /* line 252, templates/g5_hydrogen/custom/scss/custom.scss */
-  /* line 253, templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 314, templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 315, templates/g5_hydrogen/custom/scss/custom.scss */
   .article-header {
     text-align: center;
   }
-  /* line 256, templates/g5_hydrogen/custom/scss/custom.scss */
-  /* line 257, templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 318, templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 319, templates/g5_hydrogen/custom/scss/custom.scss */
   .article #k2ModuleBox105 ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  /* line 261, templates/g5_hydrogen/custom/scss/custom.scss */
+  /* line 323, templates/g5_hydrogen/custom/scss/custom.scss */
   .article #k2ModuleBox105 ul li {
     display: flex;
     text-align: center;

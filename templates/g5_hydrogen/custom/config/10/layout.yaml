@@ -56,6 +56,9 @@ structure:
     attributes:
       boxed: ''
 content:
+  menu-8272:
+    attributes:
+      mobileTarget: '0'
   position-position-4747:
     title: 'Module Position'
     attributes:

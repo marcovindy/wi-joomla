@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\wi-joomla/templates/g5_hydrogen/custom/config/10/layout.yaml',
-    'modified' => 1625144407,
+    'modified' => 1625149085,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -98,6 +98,11 @@ return [
             ]
         ],
         'content' => [
+            'menu-8272' => [
+                'attributes' => [
+                    'mobileTarget' => '0'
+                ]
+            ],
             'position-position-4747' => [
                 'title' => 'Module Position',
                 'attributes' => [

@@ -1,8 +1,8 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/hydrogen_10.css',
-    'timestamp' => 1622715364,
-    'md5' => 'a0c7a76b13a586c3d6b963334a211a28',
+    'timestamp' => 1625150353,
+    'md5' => '0a99f8f0ecacfd4e7335cce5a66905db',
     'variables' => [
         'accent-color-1' => '#383838',
         'accent-color-2' => '#8f4dae',

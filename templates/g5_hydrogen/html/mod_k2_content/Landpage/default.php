@@ -79,4 +79,40 @@ defined('_JEXEC') or die;
 
 
 
+window.addEventListener('scroll', throttle(parallax, 14));
+window.addEventListener('scroll', throttle(parallax2, 14));
+
+function throttle(fn, wait) {
+  var time = Date.now();
+  return function() {
+    if ((time + wait - Date.now()) < 0) {
+      fn();
+      time = Date.now();
+    }
+  }
+};
+
+function parallax() {
+  var scrolled = window.pageYOffset;
+  var parallax = document.querySelector(".landpage");
+	var px = (scrolled * 0.4) + 'px'
+  parallax.style.transform = 'translateY(' + px + ')';
+};
+
+function parallax2() {
+  var scrolled = window.pageYOffset;
+  var parallax = document.querySelector(".arrows");
+	var px = (scrolled * 0.3) + 'px'
+  parallax.style.transform = 'translateY(' + px + ')';
+};
+
+jQuery(document).ready(function() {
+    jQuery(".hamburger").click(function() {
+        $(".g-toplevel").show();
+ });
+ jQuery(".hamburger.is-active").click(function() {
+        $(".g-toplevel").hide();
+ });
+});
+
 </script>

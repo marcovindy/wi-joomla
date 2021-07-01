@@ -5,3 +5,7 @@ header:
   background: '#383838'
 navigation:
   background: '#383838'
+menu:
+  col-width: 180px
+  animation: g-fade
+  hide-on-mobile: '0'

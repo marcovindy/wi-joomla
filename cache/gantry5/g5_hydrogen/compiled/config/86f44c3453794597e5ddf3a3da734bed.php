@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1625141305,
-    'checksum' => 'ab822a5c7f2ca7de0dde12210f44860c',
+    'timestamp' => 1625150520,
+    'checksum' => '4e6e3beee6a22b91224ff94dea17109d',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
@@ -28,6 +28,70 @@ return [
             'page/head' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/page/head.yaml',
                 'modified' => 1625141305
+            ],
+            'particles/branding' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/branding.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/content' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/content.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/contentarray' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/contentarray.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/copyright' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/copyright.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/custom' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/custom.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/date' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/date.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/logo' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/logo.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/menu' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/menu.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/messages' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/messages.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/mobile-menu' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/mobile-menu.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/module' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/module.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/position' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/position.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/sample' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/sample.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/social' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/social.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/spacer' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/spacer.yaml',
+                'modified' => 1625150520
+            ],
+            'particles/totop' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/totop.yaml',
+                'modified' => 1625150520
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
@@ -43,13 +107,13 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'branding' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'content' => 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>',
                 'css' => [
                     'class' => 'branding'
@@ -59,11 +123,12 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'date' => [
                     'start' => 'now',
                     'end' => 'now'
-                ]
+                ],
+                'owner' => ''
             ],
             'custom' => [
                 'caching' => [
@@ -73,7 +138,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -83,57 +148,66 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => true,
+                'link' => '1',
                 'url' => '',
                 'image' => 'gantry-assets://images/gantry5-logo.png',
                 'text' => 'Gantry 5',
-                'class' => 'gantry-logo'
+                'class' => 'gantry-logo',
+                'height' => '',
+                'svg' => ''
             ],
             'menu' => [
                 'caching' => [
                     'type' => 'menu'
                 ],
-                'enabled' => true,
-                'menu' => '',
+                'enabled' => '1',
+                'menu' => 'mainmenu',
                 'base' => '/',
-                'startLevel' => 1,
-                'maxLevels' => 0,
-                'renderTitles' => 0,
-                'hoverExpand' => 1,
-                'mobileTarget' => 0,
-                'forceTarget' => 0
+                'startLevel' => '1',
+                'maxLevels' => '0',
+                'renderTitles' => '0',
+                'hoverExpand' => '1',
+                'mobileTarget' => '0',
+                'forceTarget' => '0'
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'social' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'social'
                 ],
                 'target' => '',
-                'display' => 'both'
+                'display' => 'both',
+                'title' => '',
+                'items' => [
+                    
+                ]
             ],
             'spacer' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'totop' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'totop'
-                ]
+                ],
+                'icon' => '',
+                'content' => '',
+                'title' => ''
             ],
             'analytics' => [
                 'enabled' => true,
@@ -145,10 +219,10 @@ return [
                 'enabled' => true
             ],
             'content' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'contentarray' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'article' => [
                     'filter' => [
                         'featured' => ''
@@ -167,18 +241,21 @@ return [
                             'type' => 'intro',
                             'limit' => '',
                             'formatting' => 'text',
-                            'prepare' => false
+                            'prepare' => '0'
                         ],
-                        'edit' => false,
+                        'edit' => '0',
                         'title' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'limit' => ''
                         ],
                         'date' => [
                             'enabled' => 'published',
                             'format' => 'l, F d, Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'label' => '',
+                            'css' => ''
                         ],
                         'author' => [
                             'enabled' => 'show'
@@ -194,10 +271,16 @@ return [
                         'orderby' => 'publish_up',
                         'ordering' => 'ASC'
                     ]
+                ],
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
             ],
             'date' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'date'
                 ],
@@ -224,13 +307,15 @@ return [
                 'enabled' => true
             ],
             'messages' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'module' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ],
             'position' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ]
         ],
         'page' => [
