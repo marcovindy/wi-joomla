@@ -1,17 +1,33 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622715240,
-    'checksum' => '2fa46a0da0431bea952ac673acda5bba',
+    'timestamp' => 1625141305,
+    'checksum' => 'ab822a5c7f2ca7de0dde12210f44860c',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1622706291
+                'modified' => 1625128593
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
                 'modified' => 1622706291
+            ],
+            'page/assets' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/assets.yaml',
+                'modified' => 1625141305
+            ],
+            'page/body' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/body.yaml',
+                'modified' => 1625141305
+            ],
+            'page/fontawesome' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/fontawesome.yaml',
+                'modified' => 1625141305
+            ],
+            'page/head' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/head.yaml',
+                'modified' => 1625141305
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
@@ -222,14 +238,40 @@ return [
             'body' => [
                 'class' => 'gantry',
                 'attribs' => [
-                    'class' => 'gantry'
+                    'class' => 'gantry',
+                    'id' => '',
+                    'extra' => [
+                        
+                    ]
                 ],
                 'layout' => [
-                    'sections' => 0
-                ]
+                    'sections' => '0'
+                ],
+                'body_top' => '',
+                'body_bottom' => ''
             ],
             'fontawesome' => [
-                'enable' => 1
+                'enable' => '1'
+            ],
+            'assets' => [
+                'favicon' => '',
+                'touchicon' => '',
+                'css' => [
+                    
+                ],
+                'javascript' => [
+                    
+                ]
+            ],
+            'head' => [
+                'meta' => [
+                    
+                ],
+                'head_bottom' => '<script src="media/system/js/parallax.js"></script>
+<script src="media/system/js/parallax.min.js"></script>',
+                'atoms' => [
+                    
+                ]
             ]
         ],
         'styles' => [
@@ -295,7 +337,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1622634196,
+            'timestamp' => 1622706291,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',

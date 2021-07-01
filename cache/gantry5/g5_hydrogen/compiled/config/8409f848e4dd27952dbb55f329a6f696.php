@@ -1,28 +1,28 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622715240,
-    'checksum' => '553656546dcb37c59a4daf897d3e3ae9',
+    'timestamp' => 1625131062,
+    'checksum' => 'd8bd2c30edee05fa78546d727f77ec45',
     'files' => [
         'templates/g5_hydrogen/custom/config/10' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/index.yaml',
-                'modified' => 1622706291
+                'modified' => 1625129323
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/layout.yaml',
-                'modified' => 1622706291
+                'modified' => 1625129323
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/10/styles.yaml',
-                'modified' => 1622706291
+                'modified' => 1622715364
             ]
         ]
     ],
     'data' => [
         'index' => [
             'name' => '10',
-            'timestamp' => 1622641352,
+            'timestamp' => 1625129323,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -30,6 +30,9 @@ return [
                 'timestamp' => 1622634196
             ],
             'positions' => [
+                'showcase' => 'Module Position',
+                'content-top' => 'Module Position',
+                'content-bottom' => 'Module Position',
                 'footer' => 'Footer'
             ],
             'sections' => [
@@ -46,6 +49,12 @@ return [
                 'menu' => [
                     'menu-8272' => 'Menu'
                 ],
+                'position' => [
+                    'position-position-4747' => 'Module Position',
+                    'position-position-6141' => 'Module Position',
+                    'position-position-5433' => 'Module Position',
+                    'position-footer' => 'Footer'
+                ],
                 'messages' => [
                     'system-messages-4475' => 'System Messages'
                 ],
@@ -54,9 +63,6 @@ return [
                 ],
                 'sample' => [
                     'sample-3' => 'Key Features'
-                ],
-                'position' => [
-                    'position-footer' => 'Footer'
                 ],
                 'copyright' => [
                     'copyright-5918' => 'Copyright'
@@ -92,7 +98,9 @@ return [
                     ]
                 ],
                 '/showcase/' => [
-                    
+                    0 => [
+                        0 => 'position-position-4747'
+                    ]
                 ],
                 '/feature/' => [
                     
@@ -102,7 +110,13 @@ return [
                         0 => 'system-messages-4475'
                     ],
                     1 => [
+                        0 => 'position-position-6141'
+                    ],
+                    2 => [
                         0 => 'system-content-9502'
+                    ],
+                    3 => [
+                        0 => 'position-position-5433'
                     ]
                 ],
                 '/subfeature/' => [
@@ -169,6 +183,24 @@ return [
                 ]
             ],
             'content' => [
+                'position-position-4747' => [
+                    'title' => 'Module Position',
+                    'attributes' => [
+                        'key' => 'showcase'
+                    ]
+                ],
+                'position-position-6141' => [
+                    'title' => 'Module Position',
+                    'attributes' => [
+                        'key' => 'content-top'
+                    ]
+                ],
+                'position-position-5433' => [
+                    'title' => 'Module Position',
+                    'attributes' => [
+                        'key' => 'content-bottom'
+                    ]
+                ],
                 'sample-3' => [
                     'title' => 'Key Features',
                     'attributes' => [
@@ -248,7 +280,16 @@ return [
             ]
         ],
         'styles' => [
-            'preset' => 'preset1'
+            'preset' => 'preset1',
+            'accent' => [
+                'color-1' => '#383838'
+            ],
+            'header' => [
+                'background' => '#383838'
+            ],
+            'navigation' => [
+                'background' => '#383838'
+            ]
         ]
     ]
 ];

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\wi-joomla/templates/g5_hydrogen/custom/config/10/index.yaml',
-    'modified' => 1622706291,
+    'modified' => 1625144407,
     'data' => [
         'name' => '10',
-        'timestamp' => 1622641352,
+        'timestamp' => 1625144407,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/home.png',
@@ -13,6 +13,9 @@ return [
             'timestamp' => 1622634196
         ],
         'positions' => [
+            'showcase' => 'Module Position',
+            'content-top' => 'Module Position',
+            'content-bottom' => 'Module Position',
             'footer' => 'Footer'
         ],
         'sections' => [
@@ -29,26 +32,17 @@ return [
             'menu' => [
                 'menu-8272' => 'Menu'
             ],
+            'position' => [
+                'position-position-4747' => 'Module Position',
+                'position-position-6141' => 'Module Position',
+                'position-position-5433' => 'Module Position',
+                'position-footer' => 'Footer'
+            ],
             'messages' => [
                 'system-messages-4475' => 'System Messages'
             ],
             'content' => [
                 'system-content-9502' => 'Page Content'
-            ],
-            'sample' => [
-                'sample-3' => 'Key Features'
-            ],
-            'position' => [
-                'position-footer' => 'Footer'
-            ],
-            'copyright' => [
-                'copyright-5918' => 'Copyright'
-            ],
-            'social' => [
-                'social-3270' => 'Social'
-            ],
-            'branding' => [
-                'branding-1212' => 'Branding'
             ],
             'mobile-menu' => [
                 'mobile-menu-2054' => 'Mobile Menu'

@@ -32,3 +32,4 @@ function modChrome_gantry($module, &$params, &$attribs)
 		</<?php echo $moduleTag; ?>>
 	<?php endif;
 }
+

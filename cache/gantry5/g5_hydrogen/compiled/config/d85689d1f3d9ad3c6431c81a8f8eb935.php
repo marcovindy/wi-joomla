@@ -1,33 +1,49 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622634313,
-    'checksum' => 'b8f941471083d49b615cceddeff4efa3',
+    'timestamp' => 1625144525,
+    'checksum' => '8066381304043397984d6a4cbc60794e',
     'files' => [
         'templates/g5_hydrogen/custom/config/9' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/9/index.yaml',
-                'modified' => 1622634196
+                'modified' => 1625128593
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/9/layout.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1622634196
+                'modified' => 1625128593
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
+            ],
+            'page/assets' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/assets.yaml',
+                'modified' => 1625141305
+            ],
+            'page/body' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/body.yaml',
+                'modified' => 1625141305
+            ],
+            'page/fontawesome' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/fontawesome.yaml',
+                'modified' => 1625141305
+            ],
+            'page/head' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/page/head.yaml',
+                'modified' => 1625141305
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1622634196
+                'modified' => 1622706291
             ]
         ]
     ],
@@ -232,14 +248,40 @@ return [
             'body' => [
                 'class' => 'gantry',
                 'attribs' => [
-                    'class' => 'gantry'
+                    'class' => 'gantry',
+                    'id' => '',
+                    'extra' => [
+                        
+                    ]
                 ],
                 'layout' => [
-                    'sections' => 0
-                ]
+                    'sections' => '0'
+                ],
+                'body_top' => '',
+                'body_bottom' => ''
             ],
             'fontawesome' => [
-                'enable' => 1
+                'enable' => '1'
+            ],
+            'assets' => [
+                'favicon' => '',
+                'touchicon' => '',
+                'css' => [
+                    
+                ],
+                'javascript' => [
+                    
+                ]
+            ],
+            'head' => [
+                'meta' => [
+                    
+                ],
+                'head_bottom' => '<script src="media/system/js/parallax.js"></script>
+<script src="media/system/js/parallax.min.js"></script>',
+                'atoms' => [
+                    
+                ]
             ]
         ],
         'styles' => [
@@ -304,8 +346,8 @@ return [
             ]
         ],
         'index' => [
-            'name' => '9',
-            'timestamp' => 1622634196,
+            'name' => 9,
+            'timestamp' => 1622706291,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -326,75 +368,53 @@ return [
             ],
             'particles' => [
                 'logo' => [
-                    'logo-3451' => 'Logo',
-                    'logo-1903' => 'Logo'
+                    'logo-3451' => 'Logo'
                 ],
                 'position' => [
                     'position-header' => 'Header',
                     'position-breadcrumbs' => 'Breadcrumbs',
-                    'position-footer' => 'Footer',
-                    'position-position-3877' => 'Header',
-                    'position-position-2594' => 'Breadcrumbs',
-                    'position-position-5178' => 'Footer'
+                    'position-footer' => 'Footer'
                 ],
                 'menu' => [
-                    'menu-2224' => 'Menu',
-                    'menu-1193' => 'Menu'
+                    'menu-2224' => 'Menu'
                 ],
                 'messages' => [
-                    'system-messages-7103' => 'System Messages',
-                    'system-messages-6054' => 'System Messages'
+                    'system-messages-7103' => 'System Messages'
                 ],
                 'content' => [
-                    'system-content-7645' => 'Page Content',
-                    'system-content-2753' => 'Page Content'
+                    'system-content-7645' => 'Page Content'
                 ],
                 'copyright' => [
-                    'copyright-1387' => 'Copyright',
-                    'copyright-6796' => 'Copyright'
+                    'copyright-1387' => 'Copyright'
                 ],
                 'spacer' => [
-                    'spacer-8553' => 'Spacer',
-                    'spacer-7010' => 'Spacer'
+                    'spacer-8553' => 'Spacer'
                 ],
                 'branding' => [
-                    'branding-7727' => 'Branding',
-                    'branding-1290' => 'Branding'
+                    'branding-7727' => 'Branding'
                 ],
                 'mobile-menu' => [
-                    'mobile-menu-1756' => 'Mobile-menu',
-                    'mobile-menu-1668' => 'Mobile-menu'
+                    'mobile-menu-1756' => 'Mobile-menu'
                 ]
             ],
             'inherit' => [
                 'default' => [
                     'header' => 'header',
+                    'navigation' => 'navigation',
+                    'main' => 'main',
+                    'footer' => 'footer',
+                    'offcanvas' => 'offcanvas',
                     'logo-3451' => 'logo-3451',
                     'position-header' => 'position-header',
-                    'navigation' => 'navigation',
                     'menu-2224' => 'menu-2224',
-                    'main' => 'main',
                     'position-breadcrumbs' => 'position-breadcrumbs',
                     'system-messages-7103' => 'system-messages-7103',
                     'system-content-7645' => 'system-content-7645',
-                    'footer' => 'footer',
                     'position-footer' => 'position-footer',
                     'copyright-1387' => 'copyright-1387',
                     'spacer-8553' => 'spacer-8553',
                     'branding-7727' => 'branding-7727',
-                    'offcanvas' => 'offcanvas',
-                    'mobile-menu-1756' => 'mobile-menu-1756',
-                    'logo-1903' => 'logo-3451',
-                    'position-position-3877' => 'position-header',
-                    'menu-1193' => 'menu-2224',
-                    'position-position-2594' => 'position-breadcrumbs',
-                    'system-messages-6054' => 'system-messages-7103',
-                    'system-content-2753' => 'system-content-7645',
-                    'position-position-5178' => 'position-footer',
-                    'copyright-6796' => 'copyright-1387',
-                    'spacer-7010' => 'spacer-8553',
-                    'branding-1290' => 'branding-7727',
-                    'mobile-menu-1668' => 'mobile-menu-1756'
+                    'mobile-menu-1756' => 'mobile-menu-1756'
                 ]
             ]
         ],

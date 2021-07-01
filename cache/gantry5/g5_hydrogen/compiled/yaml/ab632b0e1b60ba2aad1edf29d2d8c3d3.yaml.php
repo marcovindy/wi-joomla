@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/templates/g5_hydrogen/custom/config/_body_only/index.yaml',
-    'modified' => 1622706291,
+    'modified' => 1625128593,
     'data' => [
         'name' => '_body_only',
-        'timestamp' => 1622634197,
+        'timestamp' => 1622706291,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/body-only.png',

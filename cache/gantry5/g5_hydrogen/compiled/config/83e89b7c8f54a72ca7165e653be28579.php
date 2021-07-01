@@ -1,13 +1,13 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1622706599,
-    'checksum' => '1822fd5b16ff23274396df5300e17d58',
+    'timestamp' => 1625130667,
+    'checksum' => '0f0119f35d20e10118290c8417f7be1c',
     'files' => [
         'templates/g5_hydrogen/custom/config/_offline' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/_offline/index.yaml',
-                'modified' => 1622706291
+                'modified' => 1625128593
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/_offline/layout.yaml',
@@ -17,7 +17,7 @@ return [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1622706291
+                'modified' => 1625128593
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
@@ -305,7 +305,7 @@ return [
         ],
         'index' => [
             'name' => '_offline',
-            'timestamp' => 1622634197,
+            'timestamp' => 1622706291,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/offline.png',

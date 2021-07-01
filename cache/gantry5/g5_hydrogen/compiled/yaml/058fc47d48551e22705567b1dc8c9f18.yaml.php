@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/wi-joomla/media/gantry5/engines/nucleus/admin/blueprints/layout/inheritance/particle.yaml',
-    'modified' => 1622634168,
+    'modified' => 1622706287,
     'data' => [
         'name' => 'Inheritance',
         'description' => 'Particle inheritance tab',

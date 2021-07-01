@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\wi-joomla/templates/g5_hydrogen/custom/config/_offline/index.yaml',
-    'modified' => 1622706291,
+    'modified' => 1625128593,
     'data' => [
         'name' => '_offline',
-        'timestamp' => 1622634197,
+        'timestamp' => 1622706291,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/offline.png',
